@@ -1,0 +1,159 @@
+
+body {
+    background-color: white;
+  }
+  
+  .site {
+      display: flex;
+      min-height: 100vh;
+      flex-direction: column;
+  }  
+  
+  .content {
+      flex: 1;
+  }
+
+  #login {
+      margin-top: 50px;
+  }
+
+  
+  .main.container {
+    margin-top: 2em;
+  }
+
+  .main.menu {
+    margin-top: 0em;
+    border-radius: 0;
+    border: none;
+    box-shadow: none;
+    transition:
+      box-shadow 0.5s ease,
+      padding 0.5s ease
+    ;
+  }
+  .main.menu .item img.logo {
+    margin-right: 1.5em;
+  }
+
+  .overlay {
+    float: left;
+    margin: 0em 3em 1em 0em;
+  }
+  .overlay .menu {
+    position: relative;
+    left: 0;
+    transition: left 0.5s ease;
+  }
+
+  
+  .overlay.fixed .menu {
+    left: 800px;
+  }
+
+  .text.container .left.floated.image {
+    margin: 2em 2em 2em -4em;
+  }
+  .text.container .right.floated.image {
+    margin: 2em -4em 2em 2em;
+  }
+
+  footer {
+      background-color: black;
+      color: whiteSmoke;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      text-align: center;
+      margin-top: 20px;
+  }
+
+  #vs {
+      text-align: center;
+      font-size: 28px;
+      margin-top: 14px;
+  }
+  
+  .vs {
+      text-align: center;
+      font-size: 28px;
+      margin-top: 28px;
+  }
+  
+  #vsControl {
+      text-align: center;
+      font-size: 28px;
+      margin-top: 50px;
+  }
+  
+  #visitanteCard {
+      margin-left: 36px;
+  }
+  
+  #fechaJorn1Field {
+      margin-left: 375px;
+  }
+  
+   #fechaJorn2Field {
+      margin-left: -140px;
+  }
+  
+  .centerLabel {
+      text-align: center;
+  }
+  
+  #equipoVisitanteLabel {
+      margin-left: 35px;
+  }
+  
+  .equipoPartido {
+      margin: auto;
+      width: 100px;
+      height: 100px;
+      padding: 2px;
+  }
+  
+  
+  .captionFaltas {
+      padding: 3px;
+      border: 1px solid #ddd;
+      border-radius: 3px;
+      background-color: #ba2222;
+  }
+  
+  .captionLocal {
+      padding: 3px;
+      border: 1px solid #ddd;
+      border-radius: 3px;
+      background-color: #1c71b1;
+  }
+  
+  .captionVisitante {
+      padding: 3px;
+      border: 1px solid #ddd;
+      border-radius: 3px;
+      background-color: #009a93;
+  }
+  
+  
+#terminarPartido {
+      margin-left: 90px;
+}
+
+.tituloControl {
+    display: inline-block;
+}
+
+
+
+#substractPenalti, #addPenalti, #substractCorner, #addCorner {
+    font-size: 26px;
+}
+
+#bannerSlider {
+	height: 300px;
+}
+
+
+#cardGoleador {
+    margin: auto;
+}
