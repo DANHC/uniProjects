@@ -23,30 +23,7 @@ public class Conexion {
         return ds.getConnection();
     }
     
-    /*
-    private Connection con;
     
-    public Conexion() throws ClassNotFoundException, SQLException {
-        this.connect();
-    }
-    
-    private void connect() throws ClassNotFoundException, SQLException {
-        Class.forName("oracle.jdbc.OracleDriver");
-        this.con = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:XE", "root", "root");
-    }
-    
-    public Connection getConnection() throws SQLException, ClassNotFoundException {
-        if( this.con.isClosed() ) {
-            this.connect();
-        }
-        
-        return this.con;
-    }
-    
-    public void disconnect() throws SQLException {
-        this.con.close();
-    }
-    */
     
     
 }
