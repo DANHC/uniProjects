@@ -1,2 +1,2 @@
-# uniProjects
-Proyectos que realicé durante mis estudios técnicos
+# miniFUtbol
+pequeño proyecto sobre administrar partidos de futbol
